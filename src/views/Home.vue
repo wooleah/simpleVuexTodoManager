@@ -1,6 +1,8 @@
 <template>
-  <div id="app">
-    <Todos/>
+  <div>
+    <div>
+      <Todos/>
+    </div>
   </div>
 </template>
 
