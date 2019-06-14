@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>
+      <AddTodo/>
       <Todos/>
     </div>
   </div>
@@ -8,10 +9,12 @@
 
 <script>
 import Todos from "../components/Todos";
+import AddTodo from "../components/AddTodo";
 
 export default {
   name: "home",
   components: {
+    AddTodo,
     Todos
   }
 };
