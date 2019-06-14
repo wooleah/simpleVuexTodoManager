@@ -1,12 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <Todos/>
   </div>
 </template>
+
+<script>
+import Todos from "../components/Todos";
+
+export default {
+  name: "home",
+  components: {
+    Todos
+  }
+};
+</script>
 
 <style>
 body {
